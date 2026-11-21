@@ -341,9 +341,10 @@ class ResultItem extends StatelessWidget {
     required String label,
     required String value,
   }) {
-    return RichText(
-      text: TextSpan(
+    return Text.rich(
+      TextSpan(
         style: const TextStyle(
+          fontFamily: 'Roboto',
           fontSize: 13,
           color: Color(0xFF374151),
         ),

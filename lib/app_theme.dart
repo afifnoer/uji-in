@@ -30,6 +30,7 @@ class AppTheme {
 
     return ThemeData(
       useMaterial3: true,
+      fontFamily: 'Roboto',
       colorScheme: colorScheme,
       scaffoldBackgroundColor: scaffoldBackgroundColor,
       appBarTheme: const AppBarTheme(
@@ -39,6 +40,7 @@ class AppTheme {
         scrolledUnderElevation: 1,
         centerTitle: false,
         titleTextStyle: TextStyle(
+          fontFamily: 'Roboto',
           color: Color(0xFF111827),
           fontSize: 18,
           fontWeight: FontWeight.w700,
@@ -89,6 +91,7 @@ class AppTheme {
             borderRadius: BorderRadius.circular(12),
           ),
           textStyle: const TextStyle(
+            fontFamily: 'Roboto',
             fontSize: 16,
             fontWeight: FontWeight.w600,
           ),
@@ -103,6 +106,7 @@ class AppTheme {
           ),
           side: const BorderSide(color: primaryColor),
           textStyle: const TextStyle(
+            fontFamily: 'Roboto',
             fontSize: 16,
             fontWeight: FontWeight.w600,
           ),
